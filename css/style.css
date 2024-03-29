@@ -1,0 +1,66 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h2, h3 {
+    margin-top: 2rem;
+}
+footer {
+    border-top: 1px solid grey;
+    margin: 2rem 0 1rem;
+    padding-top: 1rem;
+    color: rgb(2, 101, 5);
+}
+footer a {
+    color: rgb(60, 60, 60);
+}
+
+footer a:hover, hr {
+    color: rgb(1, 146, 1);
+}
+
+.tbl_task {    
+    margin: 1rem;
+    padding: 1rem;
+    background-color: rgb(230, 230, 230);
+    border: 1px solid rgba(0, 0, 0, 0.128);
+    box-shadow: 4px 4px 3px rgb(85, 3, 3, .5);    
+}
+
+.tbl_task thead {
+    background-color: rgba(50, 1, 1, 0.15);
+    border: 0px;
+    padding: 5px;
+    margin: 1rem;
+    min-width: 4rem;
+    text-align: center;
+}
+
+.tbl_task td {
+    border: 0px solid rgba(7, 7, 7, 0.21);
+    padding: 0.5rem 1rem;
+    min-width: 4rem;
+    text-align: center;
+}
+
+.tbl_task_1 td:nth-child(-n+2) {
+    background-color: rgba(50, 1, 1, 0.15);
+    padding: 5px;
+    margin: 1rem;
+    min-width: 2rem;
+}
+
+.tbl_task_2 td:first-child {
+    background-color: rgba(50, 1, 1, 0.15);
+    padding: 5px;
+    margin: 1rem;
+    min-width: 2rem;
+}
+
+.title_comment {
+    margin-top: 10px;
+    color: rgb(133, 127, 171);
+    font-size: smaller;
+}
